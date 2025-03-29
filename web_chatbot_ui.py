@@ -15,7 +15,7 @@ if not GOOGLE_API_KEY:
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the model
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 def is_computer_science_related(question):
     """Check if the question is related to computer science"""
